@@ -35,6 +35,7 @@ main section {
 
 main section p {
     color:  #cbcbcb;
+    margin:0 0 32px 0;
 }
 
 main label {
@@ -54,11 +55,58 @@ main label {
    transform: translate(-50%);
 }
 
-.firstpart {
+.firstpart form input {
 
-    display: flex;
+    display: block;
+    border: 1px solid var(--gray-light);
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 16px;
+    width: 100%;
+    box-sizing: border-box;
+   
 }
 
+.firstpart form label {
 
+    display:block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.firstpart form h1 {
+    font-size: 2.3rem;
+    margin: 0;
+}
 
+.firstpart form {
+    width: 50%;
+    margin: auto;
+}
+
+.firstpart form button {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius : 4px;
+    padding : 12px 0;
+    border : 0;
+    width: 100%;
+}
+
+.firstpart form a {
+    border: 1px solid var(--gray-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    gap: 10px;
+    padding: 10px 0;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+.firstpart form a img {
+    width: 5%;
+}
  
