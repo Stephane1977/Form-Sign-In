@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700&display=swap');
+
+:root {
+    --black : #000000;
+    --white : #FFFFFF;
+    --white-opacity-85:rgba(255, 255, 255, 0.85);
+    --gray:rgb(128, 128, 128);
+    --gray-light:#cbcbcb;
+
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16 px;
+    margin: 0;
+    height: 100vh;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+main section {
+    width: 50%;
+}
+
+.presentation {
+
+    background: url('../Form-Sign-In/imgs/women_book.jpg') center no-repeat;
+    background-size: cover;
+    height:100%;
+    position :relative;
+}
+
+main section p {
+    color:  #cbcbcb;
+}
+
+main label {
+    display :list-item
+    
+}
+
+.presentation div {
+   background-color: var(--white-opacity-85);
+   width: 65%;
+   border-radius: 6px;
+   font-size: 1.5rem;
+   padding: 20px;
+   position:absolute;
+   bottom: 50px;
+   left:50%;
+   transform: translate(-50%);
+}
+
+.firstpart {
+
+    display: flex;
+}
+
+
+
+ 
